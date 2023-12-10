@@ -2,7 +2,6 @@
 #include "controller.h"
 #include "worker.h"
 
-
 Controller::Controller() {
     Worker *worker = new Worker;
     worker->moveToThread(&workerThread);
